@@ -1,6 +1,8 @@
 # Filter VCF files
 
-Retain sites called in all samples
+1. Retain sites called in all 58 samples (AN == 116)
+2. Retain sites with QUAL >= 60
+3. Retain SNPs only
 
 ```
 module load bcftools
